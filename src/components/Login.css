@@ -1,0 +1,14 @@
+.login-bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+}

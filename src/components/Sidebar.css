@@ -1,0 +1,37 @@
+.sidebar-container{
+    height: 90vh;
+    background-color: #36454F;
+    overflow: auto;
+
+}
+
+.sidebar-elements{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.sidebar-elements-btn{
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: solid 1px;
+    height: 50px;
+
+}
+.sidebar-elements-btn-cont{
+    width: 100%;
+}
+.show-sidebar{
+    width: 200px;
+    transition: 0.5s;
+}
+.hide-sidebar{
+    width: 0px;
+    transition: 0.5s;
+}
